@@ -19,7 +19,7 @@ closeMenu.setAttribute(
 
 showMenu.setAttribute(
     "style",
-    "position: absolute; top: 0; cursor: pointer;"
+    "position: absolute; top: 30px; left: 60px; cursor: pointer;"
 )
 
 MENU.setAttribute(
