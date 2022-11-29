@@ -61,12 +61,31 @@ MENU.appendChild(listMenu);
 document.body.appendChild(MENU);
 document.body.appendChild(showMenu);
 
-showMenu.addEventListener("click", function() {
+showMenu.addEventListener("click", function () {
     showMenu.style.display = "none";
-    MENU.style.transform = "translateY(0)"
+    MENU.style.transform = "translateY(0)";
+    liOne.classList.add("slide");
+    liTwo.classList.add("slide");
+    liThree.classList.add("slide");
+    liFour.classList.add("slide");
+    liFive.classList.add("slide");
+    liSix.classList.add("slide");
+    liSeven.classList.add("slide");
+    liEight.classList.add("slide");
+    liNine.classList.add("slide");
 });
 
-closeMenu.addEventListener("click", function() {
+closeMenu.addEventListener("click", function () {
     showMenu.style.display = "block";
-    MENU.style.transform = "translateY(-1000px)"
+    MENU.style.transform = "translateY(-1000px)";
+    liOne.classList.remove("slide");
+    liTwo.classList.remove("slide");
+    liThree.classList.remove("slide");
+    liFour.classList.remove("slide");
+    liFive.classList.remove("slide");
+    liSix.classList.remove("slide");
+    liSeven.classList.remove("slide");
+    liEight.classList.remove("slide");
+    liNine.classList.remove("slide");
+
 });
